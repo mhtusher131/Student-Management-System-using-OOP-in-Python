@@ -102,3 +102,180 @@ Implement two functions to manage file operations:
 
     save_data(): Save all student and course data to a file in JSON format.
     load_data(): Load data from the file, restoring student, course, and enrollment information when the program restarts.
+Sample Input Output
+Main Menu
+
+When the program starts, display the main menu:
+
+markdown
+
+==== Student Management System ====
+1. Add New Student
+2. Add New Course
+3. Enroll Student in Course
+4. Add Grade for Student
+5. Display Student Details
+6. Display Course Details
+7. Save Data to File
+8. Load Data from File
+0. Exit
+
+Example Actions and Outputs
+
+    Add New Student
+        Input:
+
+        mathematica
+
+Select Option: 1
+Enter Name: Sami
+Enter Age: 22
+Enter Address: Dhaka
+Enter Student ID: S001
+
+Output:
+
+java
+
+    Student Sami (ID: S001) added successfully.
+
+Add New Course
+
+    Input:
+
+    mathematica
+
+Select Option: 2
+Enter Course Name: Physics
+Enter Course Code: PHY101
+Enter Instructor Name: Dr. ABC
+
+Output:
+
+csharp
+
+    Course Physics (Code: PHY101) created with instructor Dr. ABC.
+
+Enroll Student in Course
+
+    Input:
+
+    mathematica
+
+Select Option: 3
+Enter Student ID: S001
+Enter Course Code: PHY101
+
+Output:
+
+java
+
+    Student Sami (ID: S001) enrolled in Physics (Code: PHY101).
+
+Add Grade for Student
+
+    Input:
+
+    mathematica
+
+Select Option: 4
+Enter Student ID: S001
+Enter Course Code: PHY101
+Enter Grade: A
+
+Output:
+
+css
+
+    Grade A added for Sami in Physics.
+
+Display Student Details
+
+    Input:
+
+    mathematica
+
+Select Option: 5
+Enter Student ID: S001
+
+Output:
+
+yaml
+
+    Student Information:
+    Name: Sami
+    ID: S001
+    Age: 22
+    Address: Dhaka
+    Enrolled Courses: Physics
+    Grades: {'Physics': 'A'}
+
+Display Course Details
+
+    Input:
+
+    mathematica
+
+Select Option: 6
+Enter Course Code: PHY101
+
+Output:
+
+yaml
+
+    Course Information:
+    Course Name: Physics
+    Code: PHY101
+    Instructor: Dr. ABC
+    Enrolled Students: Sami
+
+Save Data to File
+
+    Input:
+
+    vbnet
+
+Select Option: 7
+
+Output:
+
+css
+
+    All student and course data saved successfully.
+
+Load Data from File
+
+    Input:
+
+    vbnet
+
+Select Option: 8
+
+Output:
+
+lua
+
+    Data loaded successfully.
+
+Exit
+
+    Input:
+
+    vbnet
+
+Select Option: 0
+
+Output:
+
+        Exiting Student Management System. Goodbye!
+
+Author
+
+    Mahmudul Hasan
+
+License
+
+This project is licensed under the MIT License.
+Acknowledgments
+
+Special thanks to the Python community and all the resources that helped in the creation of this project.
